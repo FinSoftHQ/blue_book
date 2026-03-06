@@ -9,3 +9,6 @@ curl -LsSf https://code.kimi.com/install.sh | bash
 
 ### Open Code (from https://opencode.ai/docs#install)
 curl -fsSL https://opencode.ai/install | bash
+
+### GitHub Copilot CLI (from https://github.com/features/copilot/cli)
+curl -fsSL https://gh.io/copilot-install | bash
