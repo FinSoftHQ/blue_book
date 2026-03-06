@@ -37,3 +37,13 @@ Host github.com-finsoft
 chmod 600 ~/.ssh/id_varobol ~/.ssh/id_finsoft
 
 ```
+
+---
+
+### Quick Setup using script
+
+You shall also run the following script to setup the ssh keys and config file:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/FinSoftHQ/blue_book/refs/heads/main/setup/copy_ssh.sh | bash
+```
