@@ -1,5 +1,5 @@
 mkdir ~/.ssh
-cp -r /mnt/d/apps/.ssh/ ~/.ssh/
+cp /mnt/d/apps/.ssh/* ~/.ssh
 chmod 700 ~/.ssh
 chmod 600 ~/.ssh/id_varobol ~/.ssh/id_finsoft
 # or
