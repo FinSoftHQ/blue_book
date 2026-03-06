@@ -12,3 +12,7 @@ curl -fsSL https://opencode.ai/install | bash
 
 ### GitHub Copilot CLI (from https://github.com/features/copilot/cli)
 curl -fsSL https://gh.io/copilot-install | bash
+
+### Playwright-CLI (from https://github.com/microsoft/playwright-cli with little modification)
+pnpm install -g @playwright/cli@latest
+playwright-cli install
