@@ -24,3 +24,17 @@ You might need to call the following script to refresh the shell:
 ```bash
 source ~/.bashrc
 ```
+
+## To Install Ubuntu on Windows via WSL2
+
+You might use the following command to install Ubuntu (LTS) to WSL2 on Windows:
+
+```bash
+wsl --install Ubuntu-24.04 --name <machine_name> --location <file_location_on_non_C_disk>
+```
+
+For example,
+
+```bash
+wsl --install Ubuntu-24.04 --name DevUbuntu --location D:\wsl\DevUbuntu
+```
