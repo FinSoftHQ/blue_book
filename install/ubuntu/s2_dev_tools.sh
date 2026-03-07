@@ -17,5 +17,8 @@ curl -fsSL https://gh.io/copilot-install | bash
 pnpm install -g @playwright/cli@latest
 playwright-cli install
 
+#### Install browser support for Playwright (NO Webkit)
+sudo apt-get install libnspr4 libnss3 libxss1 libatk-bridge2.0-0 libgtk-3-0 libgbm1 libasound2t64
+
 ### Typst (from https://github.com/typst/typst)
 cargo install --locked typst-cli
