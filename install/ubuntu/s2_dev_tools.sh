@@ -16,3 +16,6 @@ curl -fsSL https://gh.io/copilot-install | bash
 ### Playwright-CLI (from https://github.com/microsoft/playwright-cli with little modification)
 pnpm install -g @playwright/cli@latest
 playwright-cli install
+
+### Typst (from https://github.com/typst/typst)
+cargo install --locked typst-cli
