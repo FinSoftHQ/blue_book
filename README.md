@@ -25,6 +25,14 @@ You might need to call the following script to refresh the shell:
 source ~/.bashrc
 ```
 
+#### Login to GitHub CLI
+
+You might need to login to GitHub CLI (gh, not github) using command:
+
+```bash
+gh auth login
+```
+
 ## To Install Ubuntu on Windows via WSL2
 
 You might use the following command to install Ubuntu (LTS) to WSL2 on Windows:
