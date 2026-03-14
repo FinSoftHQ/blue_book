@@ -20,6 +20,9 @@ playwright-cli install
 #### Install browser support for Playwright (NO Webkit)
 sudo apt-get install libnspr4 libnss3 libxss1 libatk-bridge2.0-0 libgtk-3-0 libgbm1 libasound2t64
 
+# Install D2 (from https://github.com/terrastruct/d2)
+curl -fsSL https://d2lang.com/install.sh | sh -s --
+
 ### GitHub CLI (from https://github.com/cli/cli/blob/trunk/docs/install_linux.md#debian)
 (type -p wget >/dev/null || (sudo apt update && sudo apt install wget -y)) \
 	&& sudo mkdir -p -m 755 /etc/apt/keyrings \
