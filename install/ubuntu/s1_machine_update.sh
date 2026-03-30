@@ -12,3 +12,9 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 
 ### Rust (from https://rust-lang.org/tools/install/)
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+
+### Install Unzip (for bun)
+sudo apt install -y unzip
+
+### Bun (from https://bun.com/)
+curl -fsSL https://bun.sh/install | bash
