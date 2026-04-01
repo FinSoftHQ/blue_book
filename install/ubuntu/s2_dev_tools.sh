@@ -14,7 +14,7 @@ curl -fsSL https://opencode.ai/install | bash
 curl -fsSL https://gh.io/copilot-install | bash
 
 ### Playwright-CLI (from https://github.com/microsoft/playwright-cli with little modification)
-pnpm install -g @playwright/cli@latest
+pnpm add -g @playwright/cli@latest
 playwright-cli install
 
 #### Install browser support for Playwright (NO Webkit)
@@ -22,6 +22,10 @@ sudo apt-get install libnspr4 libnss3 libxss1 libatk-bridge2.0-0 libgtk-3-0 libg
 
 # Install D2 (from https://github.com/terrastruct/d2)
 curl -fsSL https://d2lang.com/install.sh | sh -s --
+
+### Agent Browser (from https://github.com/vercel-labs/agent-browser)
+pnpm add -g agent-browser
+agent-browser install --with-deps  # Download Chrome from Chrome for Testing (first time only)
 
 ### GitHub CLI (from https://github.com/cli/cli/blob/trunk/docs/install_linux.md#debian)
 (type -p wget >/dev/null || (sudo apt update && sudo apt install wget -y)) \
@@ -36,3 +40,10 @@ curl -fsSL https://d2lang.com/install.sh | sh -s --
 
 ### Typst (from https://github.com/typst/typst)
 cargo install --locked typst-cli
+
+### Gemini CLI (from https://geminicli.com/docs/get-started/)
+pnpm add -g @google/gemini-cli
+
+### Build those dependencies needed
+echo "Setting up pnpm global builds..."
+pnpm approve-build -g --all
