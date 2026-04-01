@@ -45,5 +45,5 @@ cargo install --locked typst-cli
 pnpm add -g @google/gemini-cli
 
 ### Build those dependencies needed
-echo "Setting up pnpm global builds..."
-pnpm approve-build -g --all
+# echo "Setting up pnpm global builds..."
+# pnpm approve-build -g --all
