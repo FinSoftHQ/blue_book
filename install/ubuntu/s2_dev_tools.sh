@@ -44,6 +44,9 @@ cargo install --locked typst-cli
 ### Gemini CLI (from https://geminicli.com/docs/get-started/)
 pnpm add -g @google/gemini-cli
 
+### Pi (from https://github.com/badlogic/pi-mono/tree/main/packages/coding-agent)
+pnpm add -g @mariozechner/pi-coding-agent
+
 ### Build those dependencies needed
 # echo "Setting up pnpm global builds..."
 # pnpm approve-build -g --all
