@@ -25,6 +25,11 @@ You might need to call the following script to refresh the shell:
 source ~/.bashrc
 ```
 
+After Step 2, you might need to run this command
+```bash
+pnpm approve-build -g --all
+```
+
 #### Login to GitHub CLI
 
 You might need to login to GitHub CLI (gh, not github) using command:
