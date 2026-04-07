@@ -50,6 +50,9 @@ pnpm add -g @google/gemini-cli
 ### Pi (from https://github.com/badlogic/pi-mono/tree/main/packages/coding-agent)
 pnpm add -g @mariozechner/pi-coding-agent
 
+### Goose (from https://goose-docs.ai/docs/quickstart#install-goose)
+curl -fsSL https://github.com/aaif-goose/goose/releases/download/stable/download_cli.sh | bash
+
 ### Build those dependencies needed
 # echo "Setting up pnpm global builds..."
 # pnpm approve-build -g --all
