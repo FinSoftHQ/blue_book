@@ -41,6 +41,9 @@ agent-browser install --with-deps  # Download Chrome from Chrome for Testing (fi
 ### Typst (from https://github.com/typst/typst)
 cargo install --locked typst-cli
 
+### Just (from https://github.com/casey/just?tab=readme-ov-file#cross-platform)
+cargo install just
+
 ### Gemini CLI (from https://geminicli.com/docs/get-started/)
 pnpm add -g @google/gemini-cli
 
