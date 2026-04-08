@@ -54,7 +54,7 @@ pnpm add -g @mariozechner/pi-coding-agent
 curl -fsSL https://github.com/aaif-goose/goose/releases/download/stable/download_cli.sh | bash
 
 ### Context7 (from https://github.com/upstash/context7#installation)
-pnpm dlx ctx7 setup
+pnpm add -g ctx7
 
 ### Build those dependencies needed
 # echo "Setting up pnpm global builds..."
