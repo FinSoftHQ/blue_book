@@ -51,3 +51,11 @@ For example,
 ```bash
 wsl --install Ubuntu-24.04 --name DevUbuntu --location D:\wsl\DevUbuntu
 ```
+
+## To setup Context 7 Skill
+
+In the project directory,
+
+```bash
+pnpm dlx ctx7 setup
+```
