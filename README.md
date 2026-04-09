@@ -27,7 +27,7 @@ source ~/.bashrc
 
 After Step 2, you might need to run this command
 ```bash
-pnpm approve-build -g --all
+pnpm approve-builds -g --all
 ```
 
 #### Login to GitHub CLI
