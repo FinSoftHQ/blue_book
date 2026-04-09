@@ -57,5 +57,5 @@ curl -fsSL https://github.com/aaif-goose/goose/releases/download/stable/download
 pnpm add -g ctx7
 
 ### Build those dependencies needed
-# echo "Setting up pnpm global builds..."
-# pnpm approve-build -g --all
+echo "Setting up pnpm global builds..."
+pnpm approve-builds -g --all
