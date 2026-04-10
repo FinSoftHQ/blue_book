@@ -51,7 +51,7 @@ pnpm add -g @google/gemini-cli
 pnpm add -g @mariozechner/pi-coding-agent
 
 ### Goose (from https://goose-docs.ai/docs/quickstart#install-goose)
-curl -fsSL https://github.com/aaif-goose/goose/releases/download/stable/download_cli.sh | bash
+# curl -fsSL https://github.com/aaif-goose/goose/releases/download/stable/download_cli.sh | bash
 
 ### Context7 (from https://github.com/upstash/context7#installation)
 pnpm add -g ctx7
