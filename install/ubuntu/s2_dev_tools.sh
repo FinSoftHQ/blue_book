@@ -59,3 +59,28 @@ pnpm add -g ctx7
 ### Build those dependencies needed
 echo "Setting up pnpm global builds..."
 pnpm approve-builds -g --all
+
+
+### direnv (from https://direnv.net/docs/installation.html#from-binary-builds)
+curl -sfL https://direnv.net/install.sh | bash
+
+# Define the target file and the exact command to add
+BASHRC_FILE="$HOME/.bashrc"
+HOOK_COMMAND='eval "$(direnv hook bash)"'
+
+echo "Configuring direnv for Bash..."
+
+# Check if the hook is already present in the file
+if grep -qF "$HOOK_COMMAND" "$BASHRC_FILE"; then
+    echo "✅ The direnv hook is already present in $BASHRC_FILE."
+else
+    # Append to the very end of the file
+    # Using >> ensures it goes to the bottom, after RVM, git-prompt, etc.
+    echo "" >> "$BASHRC_FILE"
+    echo "# Load direnv (Must be at the very end of the file)" >> "$BASHRC_FILE"
+    echo "$HOOK_COMMAND" >> "$BASHRC_FILE"
+    echo "✅ Successfully appended the direnv hook to the end of $BASHRC_FILE."
+fi
+
+# Remind the user to reload their shell
+echo "🔄 To apply these changes immediately, run: source ~/.bashrc"
