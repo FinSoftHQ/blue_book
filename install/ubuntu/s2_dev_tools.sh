@@ -66,9 +66,9 @@ mkdir -p ~/.config/opencode && cat > ~/.config/opencode/opencode.json << 'EOF'
 }
 EOF
 
-### Build those dependencies needed
+### Build those dependencies needed [DEPRECATED]
 echo "Setting up pnpm global builds..."
-pnpm approve-builds -g
+# pnpm approve-builds -g
 
 
 ### direnv (from https://direnv.net/docs/installation.html#from-binary-builds)
