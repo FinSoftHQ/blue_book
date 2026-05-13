@@ -30,6 +30,49 @@ already use it in another harness.
 
 - Detailed docs: [docs/README.opencode.md](docs/README.opencode.md)
 
+### Usage
+
+#### Finding Skills
+
+Use OpenCode's native `skill` tool to list all available skills:
+
+```
+use skill tool to list skills
+```
+
+#### Loading a Skill
+
+```
+use skill tool to load superpowers/brainstorming
+```
+
+#### Personal Skills
+
+Create your own skills in `~/.config/opencode/skills/`:
+
+```bash
+mkdir -p ~/.config/opencode/skills/my-skill
+```
+
+Create `~/.config/opencode/skills/my-skill/SKILL.md`:
+
+```markdown
+---
+name: my-skill
+description: Use when [condition] - [what it does]
+---
+
+# My Skill
+
+[Your skill content here]
+```
+
+#### Project Skills
+
+Create project-specific skills in `.opencode/skills/` within your project.
+
+**Skill Priority:** Project skills > Personal skills > Superpowers skills
+
 ### GSD
 
 TBA
