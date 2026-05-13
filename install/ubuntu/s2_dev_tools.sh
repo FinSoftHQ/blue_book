@@ -59,6 +59,13 @@ pnpm add -g ctx7
 ### OpenSpec (from https://github.com/Fission-AI/OpenSpec#quick-start)
 pnpm add -g @fission-ai/openspec@latest
 
+### Superpower (from https://github.com/obra/superpowers#opencode)
+mkdir -p ~/.config/opencode && cat > ~/.config/opencode/opencode.json << 'EOF'
+{
+  "plugin": ["superpowers@git+https://github.com/obra/superpowers.git"]
+}
+EOF
+
 ### Build those dependencies needed
 echo "Setting up pnpm global builds..."
 pnpm approve-builds -g --all
