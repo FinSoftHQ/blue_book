@@ -56,6 +56,9 @@ pnpm add -g @mariozechner/pi-coding-agent
 ### Context7 (from https://github.com/upstash/context7#installation)
 pnpm add -g ctx7
 
+### OpenSpec (from https://github.com/Fission-AI/OpenSpec#quick-start)
+pnpm add -g @fission-ai/openspec@latest
+
 ### Build those dependencies needed
 echo "Setting up pnpm global builds..."
 pnpm approve-builds -g --all
