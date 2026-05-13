@@ -2,7 +2,7 @@
 set -e # Exit on error
 
 ### Setup Node and NPM using LTS version
-pnpm env use -g lts
+pnpm runtime set node lts -g
 
 ### Kimi Code (from https://www.kimi.com/code/docs/en/kimi-cli/guides/getting-started.html#installation)
 curl -LsSf https://code.kimi.com/install.sh | bash
@@ -14,7 +14,7 @@ curl -fsSL https://opencode.ai/install | bash
 curl -fsSL https://gh.io/copilot-install | bash
 
 ### Playwright-CLI (from https://github.com/microsoft/playwright-cli with little modification)
-pnpm add -g @playwright/cli@latest
+pnpm add -g --allow-build=@playwright/cli @playwright/cli@latest
 playwright-cli install
 
 #### Install browser support for Playwright (NO Webkit)
@@ -24,7 +24,7 @@ sudo apt-get install libnspr4 libnss3 libxss1 libatk-bridge2.0-0 libgtk-3-0 libg
 curl -fsSL https://d2lang.com/install.sh | sh -s --
 
 ### Agent Browser (from https://github.com/vercel-labs/agent-browser)
-pnpm add -g agent-browser
+pnpm add -g --allow-build=agent-browser agent-browser
 agent-browser install --with-deps  # Download Chrome from Chrome for Testing (first time only)
 
 ### GitHub CLI (from https://github.com/cli/cli/blob/trunk/docs/install_linux.md#debian)
@@ -68,7 +68,7 @@ EOF
 
 ### Build those dependencies needed
 echo "Setting up pnpm global builds..."
-pnpm approve-builds -g --all
+pnpm approve-builds -g
 
 
 ### direnv (from https://direnv.net/docs/installation.html#from-binary-builds)
