@@ -69,6 +69,7 @@ EOF
 ### Gstack (from https://github.com/garrytan/gstack#other-ai-agents)
 git clone --single-branch --depth 1 https://github.com/garrytan/gstack.git ~/gstack
 cd ~/gstack && ./setup --host opencode
+cd
 
 ### Build those dependencies needed [DEPRECATED]
 echo "Setting up pnpm global builds..."
