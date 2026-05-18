@@ -71,6 +71,9 @@ git clone --single-branch --depth 1 https://github.com/garrytan/gstack.git ~/gst
 cd ~/gstack && ./setup --host opencode
 cd
 
+### Visual Explainer (from https://github.com/nicobailon/visual-explainer#install)
+pi install git:github.com/nicobailon/visual-explainer
+
 ### Build those dependencies needed [DEPRECATED]
 echo "Setting up pnpm global builds..."
 # pnpm approve-builds -g
