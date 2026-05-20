@@ -47,8 +47,8 @@ cargo install just
 ### Gemini CLI (from https://geminicli.com/docs/get-started/)
 pnpm add -g @google/gemini-cli
 
-### Pi (from https://github.com/badlogic/pi-mono/tree/main/packages/coding-agent)
-pnpm add -g @mariozechner/pi-coding-agent
+### Pi (from https://github.com/earendil-works/pi/tree/main/packages/coding-agent#quick-start)
+pnpm add -g @earendil-works/pi-coding-agent
 
 ### Goose (from https://goose-docs.ai/docs/quickstart#install-goose)
 # curl -fsSL https://github.com/aaif-goose/goose/releases/download/stable/download_cli.sh | bash
