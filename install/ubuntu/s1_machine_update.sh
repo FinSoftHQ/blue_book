@@ -18,3 +18,6 @@ sudo apt install -y unzip
 
 ### Bun (from https://bun.com/)
 curl -fsSL https://bun.sh/install | bash
+
+### JQ
+sudo apt install -y jq
