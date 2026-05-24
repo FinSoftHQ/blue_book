@@ -69,11 +69,6 @@ mkdir -p ~/.config/opencode && cat > ~/.config/opencode/opencode.json << 'EOF'
 }
 EOF
 
-### Gstack (from https://github.com/garrytan/gstack#other-ai-agents)
-git clone --single-branch --depth 1 https://github.com/garrytan/gstack.git ~/gstack
-cd ~/gstack && ./setup --host opencode
-cd
-
 ### Visual Explainer (from https://github.com/nicobailon/visual-explainer#install)
 pi install git:github.com/nicobailon/visual-explainer
 
@@ -121,3 +116,8 @@ fi
 
 # Remind the user to reload their shell
 echo "🔄 To apply these changes immediately, run: source ~/.bashrc"
+
+### Gstack - OpenCode (from https://github.com/garrytan/gstack#other-ai-agents)
+git clone --single-branch --depth 1 https://github.com/garrytan/gstack.git ~/gstack
+cd ~/gstack && ./setup --host opencode
+cd
