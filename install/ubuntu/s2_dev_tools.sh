@@ -70,15 +70,25 @@ mkdir -p ~/.config/opencode && cat > ~/.config/opencode/opencode.json << 'EOF'
 EOF
 
 ### Gstack (from https://github.com/garrytan/gstack#other-ai-agents)
-#git clone --single-branch --depth 1 https://github.com/garrytan/gstack.git ~/gstack
-#cd ~/gstack && ./setup --host opencode
-#cd
+# git clone --single-branch --depth 1 https://github.com/garrytan/gstack.git ~/gstack
+# cd ~/gstack && ./setup --host opencode
+# cd
 
 ### Visual Explainer (from https://github.com/nicobailon/visual-explainer#install)
 pi install git:github.com/nicobailon/visual-explainer
 
 ### Pi-SubAgents (from https://pi.dev/packages/pi-subagents)
 pi install npm:pi-subagents
+
+### Pi-Superpowers (from https://github.com/gadgj/pi-superpowers-support#installation)
+# 1. Install superpowers (official)
+pi install https://github.com/obra/superpowers
+
+# 2. Install pi-subagents (for Task/Agent tool)
+# pi install npm:@tintinweb/pi-subagents
+
+# 3. This extension is auto-loaded from ~/.pi/agent/extensions/
+# pi install npm:@uadgj/pi-superpowers-support
 
 ### Pi-GStack (from https://pi.dev/packages/pi-gstack?name=gstack)
 pi install npm:pi-gstack
