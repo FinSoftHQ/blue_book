@@ -77,6 +77,12 @@ cd
 ### Visual Explainer (from https://github.com/nicobailon/visual-explainer#install)
 pi install git:github.com/nicobailon/visual-explainer
 
+### Pi-SubAgents (from https://pi.dev/packages/pi-subagents)
+pi install npm:pi-subagents
+
+### Pi-GStack (from https://pi.dev/packages/pi-gstack?name=gstack)
+pi install npm:pi-gstack
+
 ### Build those dependencies needed [DEPRECATED]
 echo "Setting up pnpm global builds..."
 # pnpm approve-builds -g
