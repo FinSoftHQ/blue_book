@@ -13,6 +13,9 @@ curl -fsSL https://opencode.ai/install | bash
 ### GitHub Copilot CLI (from https://github.com/features/copilot/cli)
 curl -fsSL https://gh.io/copilot-install | bash
 
+### Install Playwright and FFMpeg
+curl -fsSL https://raw.githubusercontent.com/FinSoftHQ/blue_book/refs/heads/main/install/ubuntu/install-playwright-browsers.sh | bash
+
 ### Playwright-CLI (from https://github.com/microsoft/playwright-cli with little modification)
 pnpm add -g --allow-build=@playwright/cli @playwright/cli@latest
 playwright-cli install
