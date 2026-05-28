@@ -92,6 +92,8 @@ pi install npm:pi-gstack
 echo "Setting up pnpm global builds..."
 # pnpm approve-builds -g
 
+### Install markitdown (from https://github.com/microsoft/markitdown)
+uv tool install markitdown[all]
 
 ### direnv (from https://direnv.net/docs/installation.html#from-binary-builds)
 curl -sfL https://direnv.net/install.sh | bash
