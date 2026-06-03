@@ -59,6 +59,9 @@ pnpm add -g @earendil-works/pi-coding-agent
 ### Context7 (from https://github.com/upstash/context7#installation)
 pnpm add -g ctx7
 
+### OhMyPi (from https://github.com/can1357/oh-my-pi#install)
+bun install -g @oh-my-pi/pi-coding-agent
+
 ### OpenSpec (from https://github.com/Fission-AI/OpenSpec#quick-start)
 pnpm add -g @fission-ai/openspec@latest
 
