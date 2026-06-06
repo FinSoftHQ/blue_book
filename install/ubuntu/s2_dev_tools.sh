@@ -101,6 +101,11 @@ echo "Setting up pnpm global builds..."
 ### Install markitdown (from https://github.com/microsoft/markitdown)
 uv tool install markitdown[all]
 
+### Install GitNexus (from https://github.com/abhigyanpatwari/GitNexus)
+bun add -g gitnexus
+bun pm trust @ladybugdb/core onnxruntime-node tree-sitter tree-sitter-{c,c-sharp,cpp,go,java,javascript,kotlin,php,python,ruby,rust,typescript} sharp @scarf/scarf protobufjs
+
+
 ### direnv (from https://direnv.net/docs/installation.html#from-binary-builds)
 curl -sfL https://direnv.net/install.sh | bash
 
