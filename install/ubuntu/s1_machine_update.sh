@@ -21,3 +21,6 @@ curl -fsSL https://bun.sh/install | bash
 
 ### JQ
 sudo apt install -y jq
+
+### Ripgrep
+sudo apt install -y ripgrep
