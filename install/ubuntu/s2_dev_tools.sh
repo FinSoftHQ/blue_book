@@ -103,7 +103,7 @@ uv tool install markitdown[all]
 
 ### Install GitNexus (from https://github.com/abhigyanpatwari/GitNexus)
 bun add -g gitnexus
-bun pm trust @ladybugdb/core onnxruntime-node tree-sitter tree-sitter-{c,c-sharp,cpp,go,java,javascript,kotlin,php,python,ruby,rust,typescript} sharp @scarf/scarf protobufjs
+bun pm trust -g @ladybugdb/core onnxruntime-node tree-sitter tree-sitter-{c,c-sharp,cpp,go,java,javascript,kotlin,php,python,ruby,rust,typescript} sharp @scarf/scarf protobufjs
 
 ### Install AionUI (from https://github.com/iOfficeAI/AionUi)
 #wget https://github.com/iOfficeAI/AionUi/releases/download/v2.1.15/AionUi-2.1.15-linux-amd64.deb
