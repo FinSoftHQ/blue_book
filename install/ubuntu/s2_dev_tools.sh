@@ -66,7 +66,7 @@ bun install -g @oh-my-pi/pi-coding-agent
 # eval "$(omp completions bash)"
 
 ### OpenSpec (from https://github.com/Fission-AI/OpenSpec#quick-start)
-pnpm add -g @fission-ai/openspec@latest
+# pnpm add -g @fission-ai/openspec@latest
 
 ### Superpower (from https://github.com/obra/superpowers#opencode)
 mkdir -p ~/.config/opencode && cat > ~/.config/opencode/opencode.json << 'EOF'
@@ -136,6 +136,6 @@ fi
 echo "🔄 To apply these changes immediately, run: source ~/.bashrc"
 
 ### Gstack - OpenCode (from https://github.com/garrytan/gstack#other-ai-agents)
-git clone --single-branch --depth 1 https://github.com/garrytan/gstack.git ~/gstack
-cd ~/gstack && ./setup --host opencode
-cd
+# git clone --single-branch --depth 1 https://github.com/garrytan/gstack.git ~/gstack
+# cd ~/gstack && ./setup --host opencode
+# cd
