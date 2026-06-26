@@ -110,9 +110,9 @@ bun pm trust -g @ladybugdb/core onnxruntime-node tree-sitter tree-sitter-{c,c-sh
 ### Plannator (from https://github.com/backnotprop/plannotator)
 # macOS / Linux / WSL
 curl -fsSL https://plannotator.ai/install.sh | bash
-# Pi
-pi install npm:@plannotator/pi-extension
-omp install npm:@plannotator/pi-extension
+#### Pi
+# pi install npm:@plannotator/pi-extension
+# omp install npm:@plannotator/pi-extension
 
 ### Install AionUI (from https://github.com/iOfficeAI/AionUi)
 #wget https://github.com/iOfficeAI/AionUi/releases/download/v2.1.15/AionUi-2.1.15-linux-amd64.deb
