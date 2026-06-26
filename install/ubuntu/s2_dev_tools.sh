@@ -82,8 +82,10 @@ pi install git:github.com/nicobailon/visual-explainer
 pi install npm:pi-subagents
 
 ### Pi-Superpowers (from https://github.com/gadgj/pi-superpowers-support#installation)
+omp install git:github.com/obra/superpowers
+
 # 1. Install superpowers (official)
-pi install https://github.com/obra/superpowers
+pi install git:github.com/obra/superpowers
 
 # 2. Install pi-subagents (for Task/Agent tool)
 # pi install npm:@tintinweb/pi-subagents
@@ -104,6 +106,13 @@ uv tool install markitdown[all]
 ### Install GitNexus (from https://github.com/abhigyanpatwari/GitNexus)
 bun add -g gitnexus
 bun pm trust -g @ladybugdb/core onnxruntime-node tree-sitter tree-sitter-{c,c-sharp,cpp,go,java,javascript,kotlin,php,python,ruby,rust,typescript} sharp @scarf/scarf protobufjs
+
+### Plannator (from https://github.com/backnotprop/plannotator)
+# macOS / Linux / WSL
+curl -fsSL https://plannotator.ai/install.sh | bash
+# Pi
+pi install npm:@plannotator/pi-extension
+omp install npm:@plannotator/pi-extension
 
 ### Install AionUI (from https://github.com/iOfficeAI/AionUi)
 #wget https://github.com/iOfficeAI/AionUi/releases/download/v2.1.15/AionUi-2.1.15-linux-amd64.deb
