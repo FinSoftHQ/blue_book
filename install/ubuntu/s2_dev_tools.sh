@@ -53,6 +53,15 @@ pnpm add -g @google/gemini-cli
 ### Pi (from https://github.com/earendil-works/pi/tree/main/packages/coding-agent#quick-start)
 pnpm add -g @earendil-works/pi-coding-agent
 
+### Z-Code (from https://zcode.z.ai/en#all-downloads)
+# Download the .deb package
+wget https://cdn-zcode.z.ai/zcode/electron/releases/3.3.3/ZCode-3.3.3-linux-x64.deb
+
+# Install with apt (auto-resolves dependencies)
+sudo apt install ./ZCode-3.3.3-linux-x64.deb
+
+rm ZCode-3.3.3-linux-x64.deb
+
 ### Goose (from https://goose-docs.ai/docs/quickstart#install-goose)
 # curl -fsSL https://github.com/aaif-goose/goose/releases/download/stable/download_cli.sh | bash
 
