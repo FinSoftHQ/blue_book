@@ -123,6 +123,13 @@ curl -fsSL https://plannotator.ai/install.sh | bash
 # pi install npm:@plannotator/pi-extension
 # omp install npm:@plannotator/pi-extension
 
+### Code Graph (from https://github.com/colbymchenry/codegraph)
+# macOS / Linux
+curl -fsSL https://raw.githubusercontent.com/colbymchenry/codegraph/main/install.sh | sh
+
+# Windows (PowerShell)
+#irm https://raw.githubusercontent.com/colbymchenry/codegraph/main/install.ps1 | iex
+
 ### Install AionUI (from https://github.com/iOfficeAI/AionUi)
 #wget https://github.com/iOfficeAI/AionUi/releases/download/v2.1.15/AionUi-2.1.15-linux-amd64.deb
 #sudo apt install ./AionUi-2.1.15-linux-amd64.deb
