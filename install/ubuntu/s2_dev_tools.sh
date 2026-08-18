@@ -1,12 +1,11 @@
 #!/bin/bash
-
-## set -e # Exit on error
+set -e # Exit on error
 
 ### Setup Node and NPM using LTS version
 pnpm runtime set node lts -g
 
 ### Kimi Code (from https://www.kimi.com/code/docs/en/kimi-cli/guides/getting-started.html#installation)
-curl -LsSf https://code.kimi.com/install.sh | bash
+curl -fsSL https://code.kimi.com/kimi-code/install.sh | bash
 
 ### Open Code (from https://opencode.ai/docs#install)
 curl -fsSL https://opencode.ai/install | bash
