@@ -1,5 +1,6 @@
 #!/bin/bash
-set -e # Exit on error
+
+## set -e # Exit on error
 
 ### Setup Node and NPM using LTS version
 pnpm runtime set node lts -g
@@ -12,16 +13,6 @@ curl -fsSL https://opencode.ai/install | bash
 
 ### GitHub Copilot CLI (from https://github.com/features/copilot/cli)
 curl -fsSL https://gh.io/copilot-install | bash
-
-### Install Playwright and FFMpeg
-curl -fsSL https://raw.githubusercontent.com/FinSoftHQ/blue_book/refs/heads/main/install/ubuntu/install-playwright-browsers.sh | bash
-
-### Playwright-CLI (from https://github.com/microsoft/playwright-cli with little modification)
-pnpm add -g --allow-build=@playwright/cli @playwright/cli@latest
-playwright-cli install
-
-#### Install browser support for Playwright (NO Webkit)
-sudo apt-get install libnspr4 libnss3 libxss1 libatk-bridge2.0-0 libgtk-3-0 libgbm1 libasound2t64
 
 # Install D2 (from https://github.com/terrastruct/d2)
 curl -fsSL https://d2lang.com/install.sh | sh -s --
@@ -48,19 +39,20 @@ cargo install --locked typst-cli
 cargo install just
 
 ### Gemini CLI (from https://geminicli.com/docs/get-started/)
-pnpm add -g @google/gemini-cli
+# pnpm add -g @google/gemini-cli
 
 ### Pi (from https://github.com/earendil-works/pi/tree/main/packages/coding-agent#quick-start)
-pnpm add -g @earendil-works/pi-coding-agent
+# pnpm add -g @earendil-works/pi-coding-agent
+curl -fsSL https://pi.dev/install.sh | sh
 
 ### Z-Code (from https://zcode.z.ai/en#all-downloads)
 # Download the .deb package
-wget https://cdn-zcode.z.ai/zcode/electron/releases/3.3.3/ZCode-3.3.3-linux-x64.deb
+wget https://cdn-zcode.z.ai/zcode/electron/releases/3.7.7/linux-x64/ZCode-3.7.7-linux-x64.deb
 
 # Install with apt (auto-resolves dependencies)
-sudo apt install ./ZCode-3.3.3-linux-x64.deb
+sudo apt install ./ZCode-3.7.7-linux-x64.deb
 
-rm ZCode-3.3.3-linux-x64.deb
+rm ZCode-3.7.7-linux-x64.deb
 
 ### Goose (from https://goose-docs.ai/docs/quickstart#install-goose)
 # curl -fsSL https://github.com/aaif-goose/goose/releases/download/stable/download_cli.sh | bash
@@ -88,7 +80,7 @@ EOF
 pi install git:github.com/nicobailon/visual-explainer
 
 ### Pi-SubAgents (from https://pi.dev/packages/pi-subagents)
-pi install npm:pi-subagents
+# pi install npm:pi-subagents
 
 ### Pi-Superpowers (from https://github.com/gadgj/pi-superpowers-support#installation)
 omp install git:github.com/obra/superpowers
@@ -103,18 +95,22 @@ pi install git:github.com/obra/superpowers
 # pi install npm:@uadgj/pi-superpowers-support
 
 ### Pi-GStack (from https://pi.dev/packages/pi-gstack?name=gstack)
-pi install npm:pi-gstack
+# pi install npm:pi-gstack
 
 ### Build those dependencies needed [DEPRECATED]
 echo "Setting up pnpm global builds..."
 # pnpm approve-builds -g
 
 ### Install markitdown (from https://github.com/microsoft/markitdown)
-uv tool install markitdown[all]
+# uv tool install markitdown[all]
+
+### Install PDF-Inspector or pdf2md (from https://github.com/firecrawl/pdf-inspector#cli)
+# Install the CLI tools
+cargo install pdf-inspector
 
 ### Install GitNexus (from https://github.com/abhigyanpatwari/GitNexus)
-bun add -g gitnexus
-bun pm trust -g @ladybugdb/core onnxruntime-node tree-sitter tree-sitter-{c,c-sharp,cpp,go,java,javascript,kotlin,php,python,ruby,rust,typescript} sharp @scarf/scarf protobufjs
+# bun add -g gitnexus
+# bun pm trust -g @ladybugdb/core onnxruntime-node tree-sitter tree-sitter-{c,c-sharp,cpp,go,java,javascript,kotlin,php,python,ruby,rust,typescript} sharp @scarf/scarf protobufjs
 
 ### Plannator (from https://github.com/backnotprop/plannotator)
 # macOS / Linux / WSL
