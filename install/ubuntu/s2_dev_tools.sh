@@ -50,7 +50,7 @@ curl -fsSL https://pi.dev/install.sh | sh
 wget https://cdn-zcode.z.ai/zcode/electron/releases/3.7.7/linux-x64/ZCode-3.7.7-linux-x64.deb
 
 # Install with apt (auto-resolves dependencies)
-sudo apt install ./ZCode-3.7.7-linux-x64.deb
+sudo apt install -y ./ZCode-3.7.7-linux-x64.deb
 
 rm ZCode-3.7.7-linux-x64.deb
 
