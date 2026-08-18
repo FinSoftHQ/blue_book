@@ -86,7 +86,7 @@ EOF
 omp install git:github.com/obra/superpowers
 
 # 1. Install superpowers (official)
-pi install git:github.com/obra/superpowers
+# pi install git:github.com/obra/superpowers
 
 # 2. Install pi-subagents (for Task/Agent tool)
 # pi install npm:@tintinweb/pi-subagents
