@@ -77,7 +77,7 @@ mkdir -p ~/.config/opencode && cat > ~/.config/opencode/opencode.json << 'EOF'
 EOF
 
 ### Visual Explainer (from https://github.com/nicobailon/visual-explainer#install)
-pi install git:github.com/nicobailon/visual-explainer
+# pi install git:github.com/nicobailon/visual-explainer
 
 ### Pi-SubAgents (from https://pi.dev/packages/pi-subagents)
 # pi install npm:pi-subagents
