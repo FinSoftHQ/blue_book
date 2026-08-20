@@ -18,7 +18,7 @@ curl -fsSL https://d2lang.com/install.sh | sh -s --
 
 ### Agent Browser (from https://github.com/vercel-labs/agent-browser)
 pnpm add -g --allow-build=agent-browser agent-browser
-agent-browser install --with-deps  # Download Chrome from Chrome for Testing (first time only)
+#agent-browser install --with-deps  # Download Chrome from Chrome for Testing (first time only)
 
 ### GitHub CLI (from https://github.com/cli/cli/blob/trunk/docs/install_linux.md#debian)
 #(type -p wget >/dev/null || (sudo apt update && sudo apt install wget -y)) \
