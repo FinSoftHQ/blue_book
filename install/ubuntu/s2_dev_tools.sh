@@ -131,6 +131,9 @@ curl -fsSL https://raw.githubusercontent.com/colbymchenry/codegraph/main/install
 #sudo apt install ./AionUi-2.1.15-linux-amd64.deb
 #rm AionUi-2.1.15-linux-amd64.deb
 
+### Install HERDR (from https://github.com/herdrdev/herdr#install)
+curl -fsSL https://herdr.dev/install.sh | sh
+
 
 ### direnv (from https://direnv.net/docs/installation.html#from-binary-builds)
 curl -sfL https://direnv.net/install.sh | bash
