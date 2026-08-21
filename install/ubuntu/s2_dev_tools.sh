@@ -32,13 +32,13 @@ agent-browser install --with-deps  # Download Chrome from Chrome for Testing (fi
 	&& sudo apt install gh -y
 
 ### Typst (from https://github.com/typst/typst)
-# cargo install --locked typst-cli
+cargo install --locked typst-cli
 
 ### Just (from https://github.com/casey/just?tab=readme-ov-file#cross-platform)
-# cargo install just
+cargo install just
 
 ### Gemini CLI (from https://geminicli.com/docs/get-started/)
-# pnpm add -g @google/gemini-cli
+pnpm add -g @google/gemini-cli
 
 ### Pi (from https://github.com/earendil-works/pi/tree/main/packages/coding-agent#quick-start)
 # pnpm add -g @earendil-works/pi-coding-agent
@@ -61,7 +61,7 @@ pnpm add -g ctx7
 
 ### OhMyPi - omp (from https://github.com/can1357/oh-my-pi#install)
 bun install -g -y @oh-my-pi/pi-coding-agent
-# bun pm -g trust onnxruntime-node protobufjs
+bun pm -g trust onnxruntime-node protobufjs
 
 # bash — add to ~/.bashrc
 # eval "$(omp completions bash)"
