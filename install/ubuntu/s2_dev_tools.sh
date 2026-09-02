@@ -46,12 +46,12 @@ curl -fsSL https://pi.dev/install.sh | sh
 
 ### Z-Code (from https://zcode.z.ai/en#all-downloads)
 # Download the .deb package
-wget https://cdn-zcode.z.ai/zcode/electron/releases/3.7.7/linux-x64/ZCode-3.7.7-linux-x64.deb
+wget https://cdn-zcode.z.ai/zcode/electron/releases/3.10.2/linux-x64/ZCode-3.10.2-linux-x64.deb
 
 # Install with apt (auto-resolves dependencies)
-sudo apt install -y ./ZCode-3.7.7-linux-x64.deb
+sudo apt install -y ./ZCode-3.10.2-linux-x64.deb
 
-rm ZCode-3.7.7-linux-x64.deb
+rm ZCode-3.10.2-linux-x64.deb
 
 ### Goose (from https://goose-docs.ai/docs/quickstart#install-goose)
 # curl -fsSL https://github.com/aaif-goose/goose/releases/download/stable/download_cli.sh | bash
