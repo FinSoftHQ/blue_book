@@ -20,7 +20,7 @@ curl -fsSL https://raw.githubusercontent.com/FinSoftHQ/blue_book/refs/heads/main
 Step 3 - Setup skills:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/FinSoftHQ/blue_book/refs/heads/main/install/ubuntu/s3_setup_skills.sh | bash
+bash <(curl -fsSL https://raw.githubusercontent.com/FinSoftHQ/blue_book/refs/heads/main/install/ubuntu/s3_setup_skills.sh)
 ```
 
 ### NOTE:
