@@ -17,6 +17,12 @@ Step 2 - Install developer tools:
 curl -fsSL https://raw.githubusercontent.com/FinSoftHQ/blue_book/refs/heads/main/install/ubuntu/s2_dev_tools.sh | bash
 ```
 
+Step 3 - Setup skills:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/FinSoftHQ/blue_book/refs/heads/main/install/ubuntu/s3_setup_skills.sh | bash
+```
+
 ### NOTE:
 
 You might need to call the following script to refresh the shell:
