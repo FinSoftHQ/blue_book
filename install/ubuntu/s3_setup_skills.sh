@@ -6,3 +6,5 @@ pnpm dlx skills add https://github.com/obra/superpowers --skill finishing-a-deve
 pnpm dlx skills add https://github.com/mattpocock/skills -g --skill codebase-design domain-modeling prototype research retro
 pnpm dlx skills add https://github.com/dietrichgebert/ponytail --skill ponytail -g
 pnpm dlx skills add https://github.com/pbakaus/impeccable --skill impeccable -g
+pnpm dlx skills add https://github.com/vercel-labs/agent-browser --skill agent-browser -g
+pnpm dlx skills add https://github.com/anthropics/skills --skill skill-creator -g
