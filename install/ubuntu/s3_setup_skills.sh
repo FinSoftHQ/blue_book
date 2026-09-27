@@ -8,3 +8,4 @@ pnpm dlx skills add https://github.com/dietrichgebert/ponytail --skill ponytail 
 pnpm dlx skills add https://github.com/pbakaus/impeccable --skill impeccable -g
 pnpm dlx skills add https://github.com/vercel-labs/agent-browser --skill agent-browser -g
 pnpm dlx skills add https://github.com/anthropics/skills --skill skill-creator -g
+pnpm dlx skills add Octen-Team/octen-skills -g
