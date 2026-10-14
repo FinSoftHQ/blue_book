@@ -24,3 +24,6 @@ sudo apt install -y jq
 
 ### Ripgrep
 sudo apt install -y ripgrep
+
+### TMUX
+sudo apt install tmux -y
