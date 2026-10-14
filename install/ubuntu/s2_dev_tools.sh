@@ -134,6 +134,9 @@ curl -fsSL https://raw.githubusercontent.com/colbymchenry/codegraph/main/install
 ### Install HERDR (from https://github.com/herdrdev/herdr#install)
 curl -fsSL https://herdr.dev/install.sh | sh
 
+### Install OpenRig(from https://github.com/mvschwarz/openrig)
+curl -fsSL https://raw.githubusercontent.com/mvschwarz/openrig/v0.6.8/scripts/install.sh | sh
+
 
 ### direnv (from https://direnv.net/docs/installation.html#from-binary-builds)
 curl -sfL https://direnv.net/install.sh | bash
