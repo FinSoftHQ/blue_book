@@ -135,7 +135,7 @@ curl -fsSL https://raw.githubusercontent.com/colbymchenry/codegraph/main/install
 curl -fsSL https://herdr.dev/install.sh | sh
 
 ### Install OpenRig(from https://github.com/mvschwarz/openrig)
-curl -fsSL https://raw.githubusercontent.com/mvschwarz/openrig/v0.6.8/scripts/install.sh | sh
+#curl -fsSL https://raw.githubusercontent.com/mvschwarz/openrig/v0.6.8/scripts/install.sh | sh
 
 
 ### direnv (from https://direnv.net/docs/installation.html#from-binary-builds)
