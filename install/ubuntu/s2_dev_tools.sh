@@ -70,11 +70,11 @@ bun pm -g trust onnxruntime-node protobufjs
 # pnpm add -g @fission-ai/openspec@latest
 
 ### Superpower (from https://github.com/obra/superpowers#opencode)
-mkdir -p ~/.config/opencode && cat > ~/.config/opencode/opencode.json << 'EOF'
-{
-  "plugin": ["superpowers@git+https://github.com/obra/superpowers.git"]
-}
-EOF
+#mkdir -p ~/.config/opencode && cat > ~/.config/opencode/opencode.json << 'EOF'
+#{
+#  "plugin": ["superpowers@git+https://github.com/obra/superpowers.git"]
+#}
+#EOF
 
 ### Visual Explainer (from https://github.com/nicobailon/visual-explainer#install)
 # pi install git:github.com/nicobailon/visual-explainer
@@ -83,7 +83,7 @@ EOF
 # pi install npm:pi-subagents
 
 ### Pi-Superpowers (from https://github.com/gadgj/pi-superpowers-support#installation)
-omp install git:github.com/obra/superpowers
+#omp install git:github.com/obra/superpowers
 
 # 1. Install superpowers (official)
 # pi install git:github.com/obra/superpowers
