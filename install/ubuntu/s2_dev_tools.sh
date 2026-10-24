@@ -114,7 +114,7 @@ cargo install pdf-inspector
 
 ### Plannator (from https://github.com/backnotprop/plannotator)
 # macOS / Linux / WSL
-curl -fsSL https://plannotator.ai/install.sh | bash
+#curl -fsSL https://plannotator.ai/install.sh | bash
 #### Pi
 # pi install npm:@plannotator/pi-extension
 # omp install npm:@plannotator/pi-extension
