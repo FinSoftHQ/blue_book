@@ -3,6 +3,7 @@ set -e # Exit on error
 
 ### Setup Node and NPM using LTS version
 pnpm runtime set node lts -g
+pnpm add -g npm
 
 ### Kimi Code (from https://www.kimi.com/code/docs/en/kimi-cli/guides/getting-started.html#installation)
 curl -fsSL https://code.kimi.com/kimi-code/install.sh | bash
