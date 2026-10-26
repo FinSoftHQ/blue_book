@@ -72,10 +72,10 @@ bun pm -g trust onnxruntime-node protobufjs
 
 ### Superpower (from https://github.com/obra/superpowers#opencode)
 #mkdir -p ~/.config/opencode && cat > ~/.config/opencode/opencode.json << 'EOF'
-#{
+# {
 #  "plugin": ["superpowers@git+https://github.com/obra/superpowers.git"]
-#}
-#EOF
+# }
+# EOF
 
 ### Visual Explainer (from https://github.com/nicobailon/visual-explainer#install)
 # pi install git:github.com/nicobailon/visual-explainer
