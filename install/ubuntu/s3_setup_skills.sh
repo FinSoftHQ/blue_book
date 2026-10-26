@@ -11,3 +11,4 @@ pnpm dlx skills add https://github.com/anthropics/skills --skill skill-creator -
 # pnpm dlx skills add Octen-Team/octen-skills -g
 pnpm dlx skills add https://github.com/wheresryan22/anatomy -g --skill anatomy
 pnpm dlx skills add https://github.com/poteto/plugins -g --skill principle-type-system-discipline
+pnpm dlx skills add google/elephant-goldfish-model -g
